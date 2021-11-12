@@ -1,0 +1,28 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+table, th, tr{
+    /* width: 100%; */
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+.item{
+    flex: 1;
+}
+
+.item-double{
+    flex:2;
+    margin: 10px;
+}
+
+.post-body{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
